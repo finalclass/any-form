@@ -1,0 +1,30 @@
+{
+  "name": "any-form",
+  "version": "0.0.0",
+  "description": "Stores form on disk and notifies by email",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:finalclass/any-form.git"
+  },
+  "keywords": [
+    "form",
+    "email"
+  ],
+  "author": "Szymon Wygnański <s@finalclass.net> (http://finalclass.net/)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/finalclass/any-form/issues"
+  },
+  "homepage": "https://github.com/finalclass/any-form",
+  "dependencies": {
+    "express": "~4.1.1",
+    "body-parser": "~1.0.2",
+    "method-override": "~1.0.0",
+    "try": "~0.12.0",
+    "emailjs": "~0.3.8"
+  }
+}
