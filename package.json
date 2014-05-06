@@ -1,6 +1,6 @@
 {
   "name": "any-form",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Stores form on disk and notifies by email",
   "main": "index.js",
   "scripts": {
