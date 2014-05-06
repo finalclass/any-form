@@ -21,9 +21,10 @@ var anyForm = module.exports = {
     host: '',
     ssl: false
   },
+  port: 5430,
   formsDir: '',
   start: function () {
-    this.server = app.listen(3000, function () {
+    this.server = app.listen(this.port, function () {
       console.log('Listening on port %d', this.server.address().port);
     }.bind(this));
   }
