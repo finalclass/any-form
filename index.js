@@ -57,6 +57,8 @@ app.post('/', function (req, res) {
     dir = path.join(dir, path.basename(req.body['form-type']));
   }
 
+  res.setHeader('Access-Control-Allow-Origin', '*');
+
   var filePath = path.join(dir, new Date().toISOString() + '.json');
   var bodyString = JSON.stringify(req.body, null, 2);
 
